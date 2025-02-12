@@ -75,9 +75,11 @@ export class HomePage {
       "I had a frustrating moment.."
     ],
     "Game Release": [
-      "I feel this about the update..",
-      "I am excited for this game..",
-      "I know this about the devs.."
+      "This games latest update is..",
+      "This games recent update have been..",
+      "I am excited for a new game coming out..",
+      "A fact I know about this game is..",
+      "A fact I know about the game studio is..",
     ],
     "Gaming industry trends": [
       "This genre is doing this now.."
