@@ -114,17 +114,18 @@ export class HomePage {
       // Update the interval
       this.displayTimer += 1000;
       this.displayTimerWidth = (this.displayTimer / this.displayTime) * 100;
+      if (this.displayTimerWidth > 100) this.displayTimerWidth = 100;
 
       // If we have reached the max time
       if (this.displayTimer > this.displayTime) {
         
         // Reset the timer
-        this.displayTimer = 0;
         this.hidePrompt(0);
         
         // Reset the loading bar
         this.displayTimerPhase = 1;
         setTimeout(() => {
+          this.displayTimer = 0;
           this.displayTimerWidth = 0;
           setTimeout(() => {
             this.displayTimerPhase = 0;

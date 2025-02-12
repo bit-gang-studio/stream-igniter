@@ -95,6 +95,8 @@ $button-color-hover: #4f535e;
 
   overflow: hidden;
 
+  background-color: rgba($highlight-color, 0.3);
+
   .timer-inner {
 
     width: 100%;
