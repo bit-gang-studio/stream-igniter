@@ -41,7 +41,7 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "One thing that could be improved in this game?",
+      "One thing I would improve in this game?",
       "Your favourite character in this game?",
       "Your favourite mechanic or rule in this game?",
       "How would you improve this game?",
@@ -60,10 +60,12 @@ export class HomePage {
       "A moment of growth you've had today",
     ],
     "Game/Chat engagement & opinions": [
-      "What are you doing in-game at this moment?",
-      "What is your strategy in-game right at this moment?",
+      "Current thought process in-game right now?",
+      "What are you doing in-game right now?",
+      "What is your strategy in-game right now?",
       "What are you planning to do next in-game?",
       "What have you learned not to do in this game?",
+      "A great strategy you've learned in this game?",
       "Biggest fail in this game this week?",
       "Biggest win in this game this week?",
     ],
