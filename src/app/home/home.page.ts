@@ -85,7 +85,7 @@ export class HomePage {
 
   displayTimeMin: number = 10;
   displayVariance: number = 10;
-  displayPromptsLength: number = 4;
+  displayPromptsLength: number = 3;
   displayPrompts: Array<{
     category: string,
     prompt: string,

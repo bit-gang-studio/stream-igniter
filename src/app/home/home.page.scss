@@ -19,18 +19,67 @@ $button-color: #3c404b;
 }
 
 .prompt-container {
+
   display: flex;
   flex-direction: column;
+
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
 }
 
 .prompt-card {
+
+  display: flex;
+  align-items: center;
+  
   padding: 12px;
   border-radius: 8px;
   border: 1px solid $border-color;
   color: $primary-text-color;
+
 }
 
 .question {
+
+  flex: 1 1 100%;
+
   margin: 0;
-  font-size: 14px;
+
+  line-height: 1.6;
+  font-size: 15px;
+  padding-right: 10px;
+
+}
+
+.close {
+
+  flex: 0 0 auto;
+
+  position: relative;
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  background: $highlight-color;
+  border-radius: 2px;
+
+  &::before,
+  &::after {
+    content: ' ';
+    height: 2px;
+    width: 10px;
+    border-radius: 2px;
+    background: $primary-text-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  &::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
 }
