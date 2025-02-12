@@ -40,7 +40,23 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
-    "Game mechanics & improvements": [
+    "Game thoughts": [
+      "My in-game thought process currently..",
+      "My in-game plan right now is..",
+      "My in-game strategy right now is..",
+      "Next thing I want to do in-game is..",
+      "One thing I need to learn in-game is..",
+      "I learned not to do this in-game..",
+      "A recent in-game discovery is..",
+      "A recent in-game struggle is..",
+      "A recent in-game strategy is..",
+      "Biggest in-game fail this week..",
+      "Biggest in-game win this week..",
+      "Why I've been playing this game more/less..",
+      "This game is..",
+      "I love this game because..",
+    ],
+    "Game mechanics": [
       "I would improve this game by..",
       "My favourite in-game character is..",
       "My favourite in-game mechanic is..",
@@ -48,7 +64,34 @@ export class HomePage {
       "This game could learn from another game..",
       "Imagine this game, but with..",
     ],
-    "Streamer's personal experiences": [
+    "Game history": [
+      "My first impression of this game was..",
+      "This game changed over time by..",
+      "This game's community is..",
+      "This game has a history of..",
+      "This game's development was..",
+      "This game's story is..",
+      "This game's lore is..",
+      "One thing I liked when game launched..",
+      "One thing I disliked when game launched..",
+      "This game has improved by..",
+    ],
+    "Game release": [
+      "This games latest update is..",
+      "This games recent update have been..",
+      "I am excited for a new game coming out..",
+      "A fact I know about this game is..",
+      "A fact I know about the game studio is..",
+    ],
+    "Gaming industry": [
+      "This game's genre is currently..",
+      "This game's community is currently..",
+      "This game's popularity is currently..",
+      "This game's future is..",
+      "This game's current state is..",
+      "This game's current meta is..",
+    ],
+    "Personal experiences": [
       "The best thing that happened today..",
       "I had a frustrating moment today..",
       "I had a funny moment today..",
@@ -67,68 +110,17 @@ export class HomePage {
       "I am grateful for..",
       "My biggest achievement today was..",
       "A secret I want to share is..",
-    ],
-    "Game/Chat engagement & opinions": [
-      "My in-game thought process currently..",
-      "My in-game plan right now is..",
-      "My in-game strategy right now is..",
-      "Next thing I want to do in-game is..",
-      "One thing I need to learn in-game is..",
-      "I learned not to do this in-game..",
-      "A recent in-game discovery is..",
-      "A recent in-game struggle is..",
-      "A recent in-game strategy is..",
-      "Biggest in-game fail this week..",
-      "Biggest in-game win this week..",
-      "Why I've been playing this game more/less..",
-      "This game is..",
-      "I love this game because..",
-    ],
-    "Game history": [
-      "My first impression of this game was..",
-      "This game changed over time by..",
-      "This game's community is..",
-      "This game has a history of..",
-      "This game's development was..",
-      "This game's story is..",
-      "This game's lore is..",
-      "One thing I liked when game launched..",
-      "One thing I disliked when game launched..",
-      "This game has improved by..",
-    ],
-    "Game Release": [
-      "This games latest update is..",
-      "This games recent update have been..",
-      "I am excited for a new game coming out..",
-      "A fact I know about this game is..",
-      "A fact I know about the game studio is..",
-    ],
-    "Gaming industry trends": [
-      "This game's genre is currently..",
-      "This game's community is currently..",
-      "This game's popularity is currently..",
-      "This game's future is..",
-      "This game's current state is..",
-      "This game's current meta is..",
+      "One person I've been following is..",
+      "One person I've been watching is..",
+      "Something I've been doing less lately..",
+      "Something I've been doing more lately..",
     ],
     "Stream setup & behind-the-scenes": [
       "My stream setup recently improved by..",
-      "I plan to update my setup by..",
-      "I learned this from streaming..",
-      "My favourite streamer is.."
+      "I plan to update my streaming setup by..",
+      "I just learned this about streaming..",
+      "My current favourite streamer is.."
     ],
-    "Strategies & playstyles": [
-      "My playstyle recently changed by..",
-      "My current strategy in this game is.."
-    ],
-    "Daily challenges & goals": [
-      "My in-game goal for today is..",
-      "My long-term goal for the game is.."
-    ],
-    "Favorite gaming memories": [
-      "My favourite memory form this game is..",
-      "Funny in-game moment with a friend this week..",
-    ]
   };
 
 
