@@ -82,7 +82,7 @@ export class HomePage {
     ],
     "Game release": [
       "This games latest update is..",
-      "This games recent update has been..",
+      "This games most recent update has been..",
       "I am excited for a new game coming out..",
       "A fact I know about this game is..",
       "A fact I know about the game studio is..",
@@ -105,7 +105,7 @@ export class HomePage {
       "I had a triumphant moment today..",
       "I had an awkward moment today..",
       "I grew today when I..",
-      "Today I learned..",
+      "Something I learned today is..",
       "I met someone new today..",
       "I helped someone today..",
       "I was helped today..",
@@ -129,7 +129,6 @@ export class HomePage {
     ],
   };
 
-
   displayPromptsLength: number = 3;
   displayPrompts: Array<{
     phase: number,
@@ -138,7 +137,7 @@ export class HomePage {
   }> = [];
 
   displayTimer: number = 0;
-  displayTime: number = 30 * 1000;
+  displayTime: number = 60 * 1000;
   displayTimerPhase: number = 0;
   displayTimerWidth: number = 0;
   displayTimerInterval: any;
