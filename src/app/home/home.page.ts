@@ -91,7 +91,7 @@ export class HomePage {
   }> = [];
 
   displayTimer: number = 0;
-  displayTime: number = 10 * 1000; // 10 seconds
+  displayTime: number = 30 * 1000;
   displayTimerPhase: number = 0;
   displayTimerWidth: number = 0;
   displayTimerInterval: any;
