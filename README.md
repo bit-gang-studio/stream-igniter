@@ -52,9 +52,9 @@
     <li>OBS will snap it into place as part of your layout.</li>
 </ol>
 
-<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png" width="300">
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png" width="400">
 
-<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png" width="400">
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png" width="500">
 
 <hr>
 
