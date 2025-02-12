@@ -45,6 +45,8 @@
 
 ![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image2.png)
 
+![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image3.png)
+
 <h3>Step 3: Position the Dock in OBS</h3>
 <ol>
     <li>The <strong>Stream Prompt</strong> dock will appear as a floating window.</li>
@@ -52,7 +54,9 @@
     <li>OBS will snap it into place as part of your layout.</li>
 </ol>
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image3.png)
+![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png)
+
+![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png)
 
 <hr>
 
@@ -62,13 +66,10 @@
 <p>The dock will show <strong>three conversation starters</strong> at all times.</p>
 <p>These are designed to spark chat engagement and keep the conversation flowing.</p>
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png)
 
 <h3>2. Let Prompts Refresh Automatically</h3>
 <p>Every <strong>30 seconds</strong>, one of the prompts will automatically refresh.</p>
 <p>This keeps topics rotating naturally during your stream.</p>
-
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png)
 
 <h3>3. Click to Refresh Faster</h3>
 <p>Clicking on a prompt <strong>removes it immediately</strong> and refreshes a new one.</p>
@@ -78,4 +79,3 @@
 
 <h2>🚀 Start Streaming with Stream Prompt! 🚀</h2>
 <p>Now you’re all set! With <strong>Stream Prompt</strong> integrated into OBS, you’ll always have fresh conversation starters at your fingertips. Keep your chat engaged, banish awkward silences, and enjoy a smoother, more interactive stream! 🎤🔥</p>
-
