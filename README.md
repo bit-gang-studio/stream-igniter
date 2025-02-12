@@ -31,7 +31,7 @@
     <li>Navigate to <strong>Docks</strong> > <strong>Custom Browser Docks…</strong>.</li>
 </ol>
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image1.png)
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image1.png" width="300">
 
 <h3>Step 2: Add Stream Prompt</h3>
 <ol>
@@ -43,9 +43,7 @@
     <li>Click <strong>Apply</strong>.</li>
 </ol>
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image2.png)
-
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image3.png)
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image3.png" width="300">
 
 <h3>Step 3: Position the Dock in OBS</h3>
 <ol>
@@ -54,9 +52,9 @@
     <li>OBS will snap it into place as part of your layout.</li>
 </ol>
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png)
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image4.png" width="300">
 
-![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png)
+<img src="https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image5.png" width="400">
 
 <hr>
 
