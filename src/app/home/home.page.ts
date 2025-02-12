@@ -42,10 +42,11 @@ export class HomePage {
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
       "I would improve this game by..",
-      "My favourite character is..",
-      "My favourite mechanic is..",
-      "I want to ask the devs..",
-      "This game should learn from (other game).."
+      "My favourite in-game character is..",
+      "My favourite in-game mechanic is..",
+      "I want to ask the game devs..",
+      "This game could learn from another game..",
+      "Imagine this game, but with..",
     ],
     "Streamer's personal experiences": [
       "The best thing that happened today..",
@@ -56,7 +57,7 @@ export class HomePage {
       "I had a scary moment today..",
       "I had a triumphant moment today..",
       "I had an awkward moment today..",
-      "I grew today by..",
+      "I grew today when I..",
       "Today I learned..",
     ],
     "Game/Chat engagement & opinions": [
@@ -88,8 +89,8 @@ export class HomePage {
       "My biggest achievement was.."
     ],
     "Stream setup & behind-the-scenes": [
-      "My stream setup improved by..",
-      "I plan to update my setup..",
+      "My stream setup recently improved by..",
+      "I plan to update my setup by..",
       "I learned this from streaming..",
       "My favourite streamer is.."
     ],
