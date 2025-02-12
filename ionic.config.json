@@ -1,0 +1,7 @@
+{
+  "name": "hod-obs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
