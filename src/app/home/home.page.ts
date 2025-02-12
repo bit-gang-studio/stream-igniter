@@ -78,6 +78,7 @@ export class HomePage {
       "One thing I liked when game launched..",
       "One thing I disliked when game launched..",
       "This game has improved by..",
+      "I recently learned about this game..",
     ],
     "Game release": [
       "This games latest update is..",
