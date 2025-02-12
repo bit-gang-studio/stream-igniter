@@ -1,13 +1,17 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - npm install -g @ionic/cli
+
+  pre_build:
+    commands:
+      - npm install
+
   build:
     commands:
-      - echo "No build step required for this project"
-  post_build:
-    commands:
-      - aws s3 cp . s3://obs.streamigniter.gg/ --recursive --exclude "buildspec.yml"
-
-artifacts:
-  files:
-    - '**/*'
+      - ionic build --prod
+      - aws s3 cp www s3://obs.streamigniter.gg/ --recursive
