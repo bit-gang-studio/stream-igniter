@@ -114,12 +114,14 @@ export class HomePage {
       "One person I've been watching is..",
       "Something I've been doing less lately..",
       "Something I've been doing more lately..",
+      "My hero right now is..",
     ],
     "Stream setup & behind-the-scenes": [
       "My stream setup recently improved by..",
       "I plan to update my streaming setup by..",
       "I just learned this about streaming..",
-      "My current favourite streamer is.."
+      "My current favourite streamer is..",
+      "A streamer I'm trying to learn from is..",
     ],
   };
 
