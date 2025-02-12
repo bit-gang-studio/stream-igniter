@@ -63,6 +63,8 @@ export class HomePage {
       "I helped someone today..",
       "I was helped today..",
       "I was inspired today by..",
+      "A new thing I want to try is..",
+      "I am grateful for..",
     ],
     "Game/Chat engagement & opinions": [
       "My in-game thought process currently..",
