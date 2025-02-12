@@ -92,6 +92,7 @@ export class HomePage {
 
   displayTimer: number = 0;
   displayTime: number = 10 * 1000; // 10 seconds
+  displayTimerPhase: number = 0;
   displayTimerWidth: number = 0;
   displayTimerInterval: any;
 
@@ -109,12 +110,29 @@ export class HomePage {
 
     // Run timer on an interval every second
     this.displayTimerInterval = setInterval(() => {
+      
+      // Update the interval
       this.displayTimer += 1000;
       this.displayTimerWidth = (this.displayTimer / this.displayTime) * 100;
-      if (this.displayTimer >= this.displayTime) {
+
+      // If we have reached the max time
+      if (this.displayTimer > this.displayTime) {
+        
+        // Reset the timer
         this.displayTimer = 0;
         this.hidePrompt(0);
+        
+        // Reset the loading bar
+        this.displayTimerPhase = 1;
+        setTimeout(() => {
+          this.displayTimerWidth = 0;
+          setTimeout(() => {
+            this.displayTimerPhase = 0;
+          }, 100);
+        }, 1000);
+
       }
+
     }, 1000);
 
   }
