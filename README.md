@@ -6,6 +6,8 @@
 <p>As a streamer, keeping your chat active and engaged can be a challenge - <strong>Stream Prompt</strong> helps solve that by providing <strong>real-time conversational prompts</strong> directly in OBS. This tool sits as a custom dock inside OBS, continuously refreshing with new talking points to keep the conversation flowing.</p>
 <p>With <strong>Stream Prompt</strong>, you'll never run out of things to say! 🎤</p>
 
+![Stream Prompts](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image0.png)
+
 <hr>
 
 <h2>How to Use Stream Prompt</h2>
@@ -17,8 +19,6 @@
     <li><strong>Clicking on a prompt</strong> removes it instantly and refreshes a new one more quickly.</li>
     <li>The dock stays in <strong>OBS</strong> so you can glance at it while streaming without tabbing out.</li>
 </ul>
-
-![Stream Prompts](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image0.png)
 
 <hr>
 
