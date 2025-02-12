@@ -3,7 +3,7 @@
 <h2>🔥 Keep Your Stream Engaging with Dynamic Conversation Starters! 🔥</h2>
 
 <h2>Introduction</h2>
-<p>As a streamer, keeping your chat active and engaged can be a challenge—<strong>Stream Igniter</strong> helps solve that by providing <strong>real-time conversational prompts</strong> directly in OBS. This tool sits as a custom dock inside OBS, continuously refreshing with new talking points to keep the conversation flowing.</p>
+<p>As a streamer, keeping your chat active and engaged can be a challenge - <strong>Stream Igniter</strong> helps solve that by providing <strong>real-time conversational prompts</strong> directly in OBS. This tool sits as a custom dock inside OBS, continuously refreshing with new talking points to keep the conversation flowing.</p>
 <p>With <strong>Stream Igniter</strong>, you'll never run out of things to say! 🎤</p>
 
 <hr>
