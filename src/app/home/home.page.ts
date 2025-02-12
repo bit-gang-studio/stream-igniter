@@ -176,7 +176,7 @@ export class HomePage {
           setTimeout(() => {
             this.displayTimerPhase = 0;
           }, 100);
-        }, 1000);
+        }, 800);
 
       }
 
