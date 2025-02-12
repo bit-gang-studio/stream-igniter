@@ -83,14 +83,17 @@ export class HomePage {
     ],
   };
 
-  displayTimeMin: number = 10;
-  displayVariance: number = 10;
   displayPromptsLength: number = 3;
   displayPrompts: Array<{
     phase: number,
     category: string,
     prompt: string,
   }> = [];
+
+  displayTimer: number = 0;
+  displayTime: number = 10 * 1000; // 10 seconds
+  displayTimerWidth: number = 0;
+  displayTimerInterval: any;
 
   constructor() {
     this.init();
@@ -103,6 +106,16 @@ export class HomePage {
       await new Promise(resolve => setTimeout(resolve, 500));
       this.addRandomPrompt();
     }
+
+    // Run timer on an interval every second
+    this.displayTimerInterval = setInterval(() => {
+      this.displayTimer += 1000;
+      this.displayTimerWidth = (this.displayTimer / this.displayTime) * 100;
+      if (this.displayTimer >= this.displayTime) {
+        this.displayTimer = 0;
+        this.hidePrompt(0);
+      }
+    }, 1000);
 
   }
 
