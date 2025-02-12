@@ -41,69 +41,70 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "One thing I would improve in this game..",
-      "My favourite character in this game..",
-      "My favourite mechanic in this game..",
       "I would improve this game by..",
-      "A question I have for the devs..",
-      "This game could learn from another game.."
+      "My favourite character is..",
+      "My favourite mechanic is..",
+      "I want to ask the devs..",
+      "This game should learn from (other game).."
     ],
     "Streamer's personal experiences": [
       "The best thing that happened today..",
-      "A frustrating moment I had today..",
-      "A funny moment I had today..",
-      "A sad moment I had today..",
-      "A happy moment I had today..",
-      "A scary moment I had today..",
-      "A triumphant moment I had today..",
-      "An awkward moment I had today..",
-      "A moment of growth I had today.."
+      "I had a frustrating moment today..",
+      "I had a funny moment today..",
+      "I had a sad moment today..",
+      "I had a happy moment today..",
+      "I had a scary moment today..",
+      "I had a triumphant moment today..",
+      "I had an awkward moment today..",
+      "I grew today by..",
+      "Today I learned..",
     ],
     "Game/Chat engagement & opinions": [
-      "My thought process in-game now..",
-      "What I am doing in-game now..",
-      "My strategy in-game right now..",
-      "What I plan to do next in-game..",
-      "What I learned not to do in-game..",
-      "A great strategy I recently learned..",
-      "Biggest fail in-game this week..",
-      "Biggest win in-game this week.."
+      "My thought process now is..",
+      "I am doing this in-game..",
+      "My strategy right now is..",
+      "I plan to do this next..",
+      "I learned not to do this..",
+      "I recently learned this strategy..",
+      "My biggest fail this week..",
+      "My biggest win this week.."
     ],
     "Game history": [
-      "My first impression of this game..",
-      "How this game changed over time..",
-      "A frustrating moment in this game.."
+      "My first impression was..",
+      "This game changed by..",
+      "I had a frustrating moment.."
     ],
     "Game Release": [
-      "How I feel about the latest update..",
-      "A new game I am excited about..",
-      "What I know about the dev studio.."
+      "I feel this about the update..",
+      "I am excited for this game..",
+      "I know this about the devs.."
     ],
     "Gaming industry trends": [
-      "How this genre is doing in gaming.."
+      "This genre is doing this now.."
     ],
     "Personal gaming achievements": [
-      "My biggest gaming achievement this week.."
+      "My biggest achievement was.."
     ],
     "Stream setup & behind-the-scenes": [
-      "How my stream setup improved over time..",
-      "Updates I have planned for my setup..",
-      "Biggest lesson I learned from streaming..",
-      "My favourite streamer right now.."
+      "My stream setup improved by..",
+      "I plan to update my setup..",
+      "I learned this from streaming..",
+      "My favourite streamer is.."
     ],
     "Strategies & playstyles": [
-      "How my playstyle changed over time..",
-      "My strategy in this game is.."
+      "My playstyle recently changed by..",
+      "My current strategy in this game is.."
     ],
     "Daily challenges & goals": [
-      "My goal for today's stream is..",
-      "My long-term goal for this game.."
+      "My in-game goal for today is..",
+      "My long-term goal for the game is.."
     ],
     "Favorite gaming memories": [
-      "My favourite memory from this game..",
-      "A funny story from playing with a friend.."
+      "My favourite memory form this game is..",
+      "Funny in-game moment with a friend this week..",
     ]
   };
+
 
   displayPromptsLength: number = 3;
   displayPrompts: Array<{
