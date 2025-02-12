@@ -1,6 +1,6 @@
 <div class="home-container">
     <div class="prompt-container">
-        <div *ngFor="let prompt of displayPrompts; let i = index" class="prompt-card">
+        <div *ngFor="let prompt of displayPrompts; let i = index" class="prompt-card phase-{{ prompt.phase }}">
             <p class="question" (click)="hidePrompt(i)">{{ prompt.prompt }}</p>
         </div>
     </div>

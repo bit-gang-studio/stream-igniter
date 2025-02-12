@@ -26,7 +26,7 @@ $button-color-hover: #4f535e;
   flex-direction: column;
 
 
-  & > div {
+  &>div {
     &:not(:last-child) {
       margin-bottom: 5px;
     }
@@ -35,16 +35,48 @@ $button-color-hover: #4f535e;
 }
 
 .prompt-card {
+
   user-select: none;
   padding: 8px 10px;
   border-radius: 4px;
   background-color: $button-color;
   color: $primary-text-color;
   font-weight: 350;
+
+  transition: opacity 500ms ease-in-out, height 500ms ease-in-out, padding 500ms ease-in-out;
+
+  white-space: nowrap;
+  overflow: hidden;
+
   &:hover {
     background-color: $button-color-hover;
     cursor: pointer;
   }
+
+  &.phase-0 {
+    opacity: 0;
+    height: 40px;
+    padding: 8px 10px;
+  }
+
+  &.phase-1 {
+    opacity: 1;
+    height: 40px;
+    padding: 8px 10px;
+  }
+
+  &.phase-2 {
+    opacity: 0;
+    height: 40px;
+    padding: 8px 10px;
+  }
+
+  &.phase-3 {
+    opacity: 0;
+    height: 0px;
+    padding: 0px 10px;
+  }
+
 }
 
 .question {
