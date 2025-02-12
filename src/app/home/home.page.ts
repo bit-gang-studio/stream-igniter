@@ -41,68 +41,68 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "One thing I would improve in this game?",
-      "Your favourite character in this game?",
-      "Your favourite mechanic or rule in this game?",
-      "How would you improve this game?",
-      "A question for the game devs?",
-      "What could this game learn from another game?",
+      "One thing I would improve in this game..",
+      "My favourite character in this game..",
+      "My favourite mechanic in this game..",
+      "I would improve this game by..",
+      "A question I have for the devs..",
+      "This game could learn from another game.."
     ],
     "Streamer's personal experiences": [
-      "The best thing that's happened to you today",
-      "A frustrating moment you've had today",
-      "A funny moment you've had today",
-      "A sad moment you've had today",
-      "A happy moment you've had today",
-      "A scary moment you've had today",
-      "A triumphant moment you've had today",
-      "An awkward moment you've had today",
-      "A moment of growth you've had today",
+      "The best thing that happened today..",
+      "A frustrating moment I had today..",
+      "A funny moment I had today..",
+      "A sad moment I had today..",
+      "A happy moment I had today..",
+      "A scary moment I had today..",
+      "A triumphant moment I had today..",
+      "An awkward moment I had today..",
+      "A moment of growth I had today.."
     ],
     "Game/Chat engagement & opinions": [
-      "Current thought process in-game right now?",
-      "What are you doing in-game right now?",
-      "What is your strategy in-game right now?",
-      "What are you planning to do next in-game?",
-      "What have you learned not to do in this game?",
-      "A great strategy you've learned in this game?",
-      "Biggest fail in this game this week?",
-      "Biggest win in this game this week?",
+      "My thought process in-game now..",
+      "What I am doing in-game now..",
+      "My strategy in-game right now..",
+      "What I plan to do next in-game..",
+      "What I learned not to do in-game..",
+      "A great strategy I recently learned..",
+      "Biggest fail in-game this week..",
+      "Biggest win in-game this week.."
     ],
     "Game history": [
-      "What was your first impression of this game?",
-      "How has this game changed in feeling over time?",
-      "Tell a frustrating moment you've had with this game",
+      "My first impression of this game..",
+      "How this game changed over time..",
+      "A frustrating moment in this game.."
     ],
     "Game Release": [
-      "How do you feel about this games latest update?",
-      "Any new games you're exicted about?",
-      "Your knowldge on the game dev studio?",
+      "How I feel about the latest update..",
+      "A new game I am excited about..",
+      "What I know about the dev studio.."
     ],
     "Gaming industry trends": [
-      "How is this games genre doing in the industry?",
+      "How this genre is doing in gaming.."
     ],
     "Personal gaming achievements": [
-      "What is your biggest achievement this week?",
+      "My biggest gaming achievement this week.."
     ],
     "Stream setup & behind-the-scenes": [
-      "How has your stream setup improved over time?",
-      "Any updates planned to your stream setup?",
-      "Biggest lesson you've learned from streaming this month?",
-      "Your favourite streamer right now?",
+      "How my stream setup improved over time..",
+      "Updates I have planned for my setup..",
+      "Biggest lesson I learned from streaming..",
+      "My favourite streamer right now.."
     ],
     "Strategies & playstyles": [
-      "How has your playstyle changed over time?",
-      "What is your strategy in this game?",
+      "How my playstyle changed over time..",
+      "My strategy in this game is.."
     ],
     "Daily challenges & goals": [
-      "What is your goal for todays stream/play session?",
-      "What are your long-term goals for this game?",
+      "My goal for today's stream is..",
+      "My long-term goal for this game.."
     ],
     "Favorite gaming memories": [
-      "What is your favourite memory from this game?",
-      "Share a funny story from playing this game with a friend",
-    ],
+      "My favourite memory from this game..",
+      "A funny story from playing with a friend.."
+    ]
   };
 
   displayPromptsLength: number = 3;
