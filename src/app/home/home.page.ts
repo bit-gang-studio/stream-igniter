@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
  * Daily challenges & goals
  * Favorite gaming memories
  * 
- * Give me a simple list of 30 short, direct, and open-ended questions in the category 'xxxxxxxxxxxxxx' that could apply to any and every video game. The questions should be engaging, relevant, and encourage thoughtful or creative responses.
+ * Give me a simple list of 50 short, direct, and open-ended questions in the category 'xxxxxxxxxxxxxx' that could apply to any and every video game. The questions should be engaging, relevant, and encourage thoughtful or creative responses.
  * 
  * 
 */
@@ -30,56 +30,40 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "How could movement feel more satisfying in this game?",
+      "Favourite character, class or unit?",
+      "Most hated character, class or unit?",
+      "Favourite weapon or ability?",
+      "Most hated weapon or ability?",
     ],
     "Streamer's personal experiences": [
-      "What's missing that would improve player agency?",
-      "How could the difficulty curve be improved?",
-      "What small change would make a big impact?",
+      "Best thing that happened to you today",
     ],
-    "Chat engagement & opinions": [
-      "What mechanic feels the most rewarding to use?",
-      "What part of the gameplay feels unnecessary or frustrating?",
-      "How could combat be made more engaging?",
+    "Game/Chat engagement & opinions": [
+      "What are you doing in-game at this moment?",
     ],
     "Funny or frustrating moments": [
-      "How could resource management be more strategic?",
-      "What would make exploration more exciting?",
-      "How could the pacing be adjusted for better flow?",
+      "Best memory playing this game",
     ],
     "Upcoming game releases": [
-      "What's the most underutilized mechanic in the game?",
-      "How could the tutorial be more effective?",
-      "What would make the AI feel smarter?",
+      "Any new games you're exicted about?",
     ],
     "Gaming industry trends": [
-      "What mechanic feels outdated or clunky?",
-      "How could interactions with NPCs be improved?",
+      "How do you feel this genere is doing in the indsutry at the moment?",
     ],
     "Personal gaming achievements": [
-      "How could the game encourage more player creativity?",
-      "What system could be added to increase replayability?",
-      "How could the UI be more intuitive?",
+      "What is your biggest achievement this week?",
     ],
     "Stream setup & behind-the-scenes": [
-      "How could movement and traversal be made more fun?",
-      "What's one thing that feels too restrictive or limiting?",
+      "How has your stream setup improved over time?",
     ],
     "Strategies & playstyles": [
-      "What mechanic needs better feedback or clarity?",
-      "How could the multiplayer experience be enhanced?",
-      "What would make decision-making more meaningful?",
-      "How could the game reward skill progression better?",
+      "How has your strategy or playstyle in this game changed over time",
     ],
     "Daily challenges & goals": [
-      "What's the biggest missed opportunity in the gameplay?",
-      "How could environmental storytelling be more impactful?",
-      "What mechanics could better support different playstyles?",
+      "Your daily challenge for this game",
     ],
     "Favorite gaming memories": [
-      "What aspect of the game could be more dynamic?",
-      "How could the game better respond to player actions?",
-      "How could randomness be balanced for fairness and fun?",
+      "What is your favourite memory form this game?",
     ],
   };
 
@@ -110,7 +94,7 @@ export class HomePage {
 
     // Run timer on an interval every second
     this.displayTimerInterval = setInterval(() => {
-      
+
       // Update the interval
       this.displayTimer += 1000;
       this.displayTimerWidth = (this.displayTimer / this.displayTime) * 100;
@@ -118,10 +102,10 @@ export class HomePage {
 
       // If we have reached the max time
       if (this.displayTimer > this.displayTime) {
-        
+
         // Reset the timer
         this.hidePrompt(0);
-        
+
         // Reset the loading bar
         this.displayTimerPhase = 1;
         setTimeout(() => {
@@ -156,7 +140,7 @@ export class HomePage {
     this.displayPrompts.splice(index, 1);
 
     // Add a new prompt
-    this.addRandomPrompt( );
+    this.addRandomPrompt();
 
   }
 
