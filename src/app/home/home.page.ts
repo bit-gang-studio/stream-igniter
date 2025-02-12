@@ -104,6 +104,15 @@ export class HomePage {
 
   }
 
+  hidePrompt(index: number) {
+
+    this.displayPrompts.splice(index, 1);
+
+    // Add a new prompt to replace the one that was removed
+    this.addRandomPrompt();
+
+  }
+
   addRandomPrompt() {
     const availableCategories = Object.keys(this.prompts)
       .filter(category =>

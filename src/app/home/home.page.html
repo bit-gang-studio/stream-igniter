@@ -1,10 +1,7 @@
 <div class="home-container">
-
     <div class="prompt-container">
-        <div *ngFor="let prompt of displayPrompts" class="prompt-card">
-            <p class="question">{{ prompt.prompt }}</p>
-            <a href="#" class="close"></a>
+        <div *ngFor="let prompt of displayPrompts; let i = index" class="prompt-card">
+            <p class="question" (click)="hidePrompt(i)">{{ prompt.prompt }}</p>
         </div>
     </div>
-    
 </div>
