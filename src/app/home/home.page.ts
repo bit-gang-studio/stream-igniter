@@ -65,6 +65,8 @@ export class HomePage {
       "I was inspired today by..",
       "A new thing I want to try is..",
       "I am grateful for..",
+      "My biggest achievement today was..",
+      "A secret I want to share is..",
     ],
     "Game/Chat engagement & opinions": [
       "My in-game thought process currently..",
@@ -102,10 +104,12 @@ export class HomePage {
       "A fact I know about the game studio is..",
     ],
     "Gaming industry trends": [
-      "This genre is doing this now.."
-    ],
-    "Personal gaming achievements": [
-      "My biggest achievement was.."
+      "This game's genre is currently..",
+      "This game's community is currently..",
+      "This game's popularity is currently..",
+      "This game's future is..",
+      "This game's current state is..",
+      "This game's current meta is..",
     ],
     "Stream setup & behind-the-scenes": [
       "My stream setup recently improved by..",
