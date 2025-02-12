@@ -78,6 +78,9 @@ export class HomePage {
       "A recent in-game strategy is..",
       "Biggest in-game fail this week..",
       "Biggest in-game win this week..",
+      "Why I've been playing this game more/less..",
+      "This game is..",
+      "I love this game because..",
     ],
     "Game history": [
       "My first impression of this game was..",
