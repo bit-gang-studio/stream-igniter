@@ -15,7 +15,7 @@ $button-color-hover: #4f535e;
   display: flex;
   flex-direction: column;
 
-  padding: 10px;
+  padding: 4px;
 
 }
 
@@ -26,7 +26,7 @@ $button-color-hover: #4f535e;
 
   & > div {
     &:not(:last-child) {
-      margin-bottom: 10px;
+      margin-bottom: 4px;
     }
   }
 
@@ -34,8 +34,8 @@ $button-color-hover: #4f535e;
 
 .prompt-card {
   user-select: none;
-  padding: 8px 12px;
-  border-radius: 8px;
+  padding: 8px 10px;
+  border-radius: 4px;
   background-color: $button-color;
   color: $primary-text-color;
   font-weight: 350;
