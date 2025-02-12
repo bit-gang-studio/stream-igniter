@@ -41,38 +41,58 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "Favourite character, class or unit?",
-      "Most hated weapon or ability?",
+      "What is one thing that could be improved in this game?",
+      "What is your favourite character in this game?",
+      "What is your mechanics or rule in this game?",
+      "If you could improve this game, how would you?",
+      "A quesiton you wish you could ask the developers of this game?",
     ],
     "Streamer's personal experiences": [
-      "Best thing that happened to you today",
+      "The best thing that's happened to you today?",
+      "Share a frustrating moment you've had today",
+      "Share a funny moment you've had today",
+      "Share a sad moment you've had today",
+      "Share a happy moment you've had today",
+      "Share a scary moment you've had today",
+      "Share a triumphant moment you've had today",
     ],
     "Game/Chat engagement & opinions": [
       "What are you doing in-game at this moment?",
+      "What is your strategy in-game right at this moment?",
+      "What are you planning to do next in-game?",
+      "What have you learned not to do in this game?",
+      "Biggest fail in this game this week?",
+      "Biggest win in this game this week?",
     ],
-    "Funny or frustrating moments": [
-      "Best memory playing this game",
+    "Game history": [
+      "What was your first impression of this game?",
+      "How has this game changed in feeling over time?",
+      "Tell a frustrating moment you've had with this game",
     ],
-    "Upcoming game releases": [
+    "Game Release": [
+      "How do you feel about this games latest update?",
       "Any new games you're exicted about?",
     ],
     "Gaming industry trends": [
-      "How do you feel this genere is doing in the indsutry at the moment?",
+      "How is this games genre doing in the industry?",
     ],
     "Personal gaming achievements": [
       "What is your biggest achievement this week?",
     ],
     "Stream setup & behind-the-scenes": [
       "How has your stream setup improved over time?",
+      "Biggest lesson you've learned from streaming this month?",
     ],
     "Strategies & playstyles": [
-      "How has your strategy or playstyle in this game changed over time",
+      "How has your game strategy or playstyle changed over time",
     ],
     "Daily challenges & goals": [
-      "Your daily challenge for this game",
+      "What is your goal for todays stream/play session?",
+      "What are your long-term goals for this game?",
     ],
     "Favorite gaming memories": [
-      "What is your favourite memory form this game?",
+      "What is your favourite memory from this game?",
+      "Share a funny story from playing this game with a friend",
     ],
   };
 
