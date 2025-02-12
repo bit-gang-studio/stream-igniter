@@ -63,6 +63,9 @@ export class HomePage {
       "I want to ask the game devs..",
       "This game could learn from another game..",
       "Imagine this game, but with..",
+      "I would add to this game..",
+      "I would remove from this game..",
+      "I would change this game by..",
     ],
     "Game history": [
       "My first impression of this game was..",
