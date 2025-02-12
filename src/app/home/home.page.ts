@@ -41,20 +41,23 @@ export class HomePage {
 
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
-      "What is one thing that could be improved in this game?",
-      "What is your favourite character in this game?",
-      "What is your mechanics or rule in this game?",
-      "If you could improve this game, how would you?",
-      "A quesiton you wish you could ask the developers of this game?",
+      "One thing that could be improved in this game?",
+      "Your favourite character in this game?",
+      "Your favourite mechanic or rule in this game?",
+      "How would you improve this game?",
+      "A question for the game devs?",
+      "What could this game learn from another game?",
     ],
     "Streamer's personal experiences": [
-      "The best thing that's happened to you today?",
-      "Share a frustrating moment you've had today",
-      "Share a funny moment you've had today",
-      "Share a sad moment you've had today",
-      "Share a happy moment you've had today",
-      "Share a scary moment you've had today",
-      "Share a triumphant moment you've had today",
+      "The best thing that's happened to you today",
+      "A frustrating moment you've had today",
+      "A funny moment you've had today",
+      "A sad moment you've had today",
+      "A happy moment you've had today",
+      "A scary moment you've had today",
+      "A triumphant moment you've had today",
+      "An awkward moment you've had today",
+      "A moment of growth you've had today",
     ],
     "Game/Chat engagement & opinions": [
       "What are you doing in-game at this moment?",
@@ -72,6 +75,7 @@ export class HomePage {
     "Game Release": [
       "How do you feel about this games latest update?",
       "Any new games you're exicted about?",
+      "Your knowldge on the game dev studio?",
     ],
     "Gaming industry trends": [
       "How is this games genre doing in the industry?",
@@ -81,10 +85,13 @@ export class HomePage {
     ],
     "Stream setup & behind-the-scenes": [
       "How has your stream setup improved over time?",
+      "Any updates planned to your stream setup?",
       "Biggest lesson you've learned from streaming this month?",
+      "Your favourite streamer right now?",
     ],
     "Strategies & playstyles": [
-      "How has your game strategy or playstyle changed over time",
+      "How has your playstyle changed over time?",
+      "What is your strategy in this game?",
     ],
     "Daily challenges & goals": [
       "What is your goal for todays stream/play session?",
