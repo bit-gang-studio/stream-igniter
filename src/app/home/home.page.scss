@@ -4,6 +4,7 @@ $primary-text-color: #ffffff;
 $secondary-text-color: #aaaaaa;
 $highlight-color: #9147ff;
 $button-color: #3c404b;
+$button-color-hover: #4f535e;
 
 .home-container {
 
@@ -35,9 +36,13 @@ $button-color: #3c404b;
   user-select: none;
   padding: 8px 12px;
   border-radius: 8px;
-  background: $button-color;
+  background-color: $button-color;
   color: $primary-text-color;
-  font-weight: 300;
+  font-weight: 350;
+  &:hover {
+    background-color: $button-color-hover;
+    cursor: pointer;
+  }
 }
 
 .question {
