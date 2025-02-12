@@ -82,7 +82,7 @@ export class HomePage {
     ],
     "Game release": [
       "This games latest update is..",
-      "This games recent update have been..",
+      "This games recent update has been..",
       "I am excited for a new game coming out..",
       "A fact I know about this game is..",
       "A fact I know about the game studio is..",
