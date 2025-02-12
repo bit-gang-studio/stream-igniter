@@ -15,7 +15,18 @@ import { Component } from '@angular/core';
  * Daily challenges & goals
  * Favorite gaming memories
  * 
- * Give me a simple list of 50 short, direct, and open-ended questions in the category 'xxxxxxxxxxxxxx' that could apply to any and every video game. The questions should be engaging, relevant, and encourage thoughtful or creative responses.
+  Give me a simple list of 50 short, direct, and open-ended questions in the category 'xxxxxxxxxxxxxx' that could apply to most video games.
+  The questions should be engaging, relevant, and encourage thoughtful or creative responses.
+  Do not ask questions that may only pertain to a certain category of games.
+  Each must be
+  - 8th grade reading level
+  - 40 chars max
+  - Real-Time Relevance
+  - Specificity
+  - Conciseness
+  - Engagement-Driven
+  - Emotionally Evocative
+  - Streamer-Centric
  * 
  * 
 */
@@ -31,8 +42,6 @@ export class HomePage {
   prompts: { [id: string]: Array<string> } = {
     "Game mechanics & improvements": [
       "Favourite character, class or unit?",
-      "Most hated character, class or unit?",
-      "Favourite weapon or ability?",
       "Most hated weapon or ability?",
     ],
     "Streamer's personal experiences": [
