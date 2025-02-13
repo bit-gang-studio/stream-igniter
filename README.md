@@ -13,7 +13,7 @@
 <h3>How it Works</h3>
 <ul>
     <li><strong>Displays 3 conversation prompts</strong> at a time.</li>
-    <li><strong>Refreshes one entry every 30 seconds</strong> to keep topics fresh.</li>
+    <li><strong>Refreshes one entry every 60 seconds</strong> to keep topics fresh.</li>
     <li><strong>Clicking on a prompt</strong> removes it instantly and refreshes a new one more quickly.</li>
     <li>The dock stays in <strong>OBS</strong> so you can glance at it while streaming without tabbing out.</li>
 </ul>
@@ -64,7 +64,7 @@
 
 
 <h3>2. Let Prompts Refresh Automatically</h3>
-<p>Every <strong>30 seconds</strong>, one of the prompts will automatically refresh.</p>
+<p>Every <strong>60 seconds</strong>, one of the prompts will automatically refresh.</p>
 <p>This keeps topics rotating naturally during your stream.</p>
 
 <h3>3. Click to Refresh Faster</h3>
