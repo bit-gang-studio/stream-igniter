@@ -1,18 +1,16 @@
-<h1>💬 Stream Prompt - OBS Integration Guide</h1>
+<h1>💬 Stream Prompt - OBS Integration</h1>
 
-<h2>🔥 Keep Your Stream Engaging with Dynamic Conversation Starters!</h2>
+<h2>🔥 Keep Your Stream Engaged with Conversation Starters!</h2>
 
 <h2>Introduction</h2>
-<p>As a streamer, keeping your chat active and engaged can be a challenge - <strong>Stream Prompt</strong> helps solve that by providing <strong>real-time conversational prompts</strong> directly in OBS. This tool sits as a custom dock inside OBS, continuously refreshing with new talking points to keep the conversation flowing.</p>
-<p>With <strong>Stream Prompt</strong>, you'll never run out of things to say! 🎤</p>
+<p>As a streamer, keeping your chat active and engaged can be a challenge - <strong>Stream Prompt</strong> solves that by providing <strong>real-time conversational prompts</strong> directly in OBS. This tool sits as a custom dock inside OBS, continuously refreshing with new talking points to keep the conversation flowing.</p>
+<p>With <strong>Stream Prompt</strong>, you'll never run out of things to say 🎤</p>
 
 ![Stream Prompt](https://raw.githubusercontent.com/bit-gang-studio/stream-igniter/refs/heads/main/assets/image0.png)
 
 <hr>
 
-<h2>How to Use Stream Prompt</h2>
-
-<h3>What It Does</h3>
+<h3>How it Works</h3>
 <ul>
     <li><strong>Displays 3 conversation prompts</strong> at a time.</li>
     <li><strong>Refreshes one entry every 30 seconds</strong> to keep topics fresh.</li>
