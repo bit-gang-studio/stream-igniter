@@ -59,17 +59,14 @@
 <h2>Using Stream Prompt While Streaming</h2>
 
 <h3>1. Read the Prompts</h3>
-<p>The dock will show <strong>three conversation starters</strong> at all times.</p>
-<p>These are designed to spark chat engagement and keep the conversation flowing.</p>
+<p>The dock will show <strong>three conversation starters</strong> at all times. These are designed to spark chat engagement and keep the conversation flowing.</p>
 
 
 <h3>2. Let Prompts Refresh Automatically</h3>
-<p>Every <strong>60 seconds</strong>, one of the prompts will automatically refresh.</p>
-<p>This keeps topics rotating naturally during your stream.</p>
+<p>Every <strong>60 seconds</strong>, one of the prompts will automatically refresh. This keeps topics rotating naturally during your stream.</p>
 
 <h3>3. Click to Refresh Faster</h3>
-<p>Clicking on a prompt <strong>removes it immediately</strong> and refreshes a new one.</p>
-<p>This is useful if a topic isn’t relevant or you need a new idea quickly.</p>
+<p>Clicking on a prompt <strong>removes it immediately</strong> and refreshes a new one. This is useful if a topic isn’t relevant or you need a new idea quickly.</p>
 
 <hr>
 
